@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="sv">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Moment 5</title>
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <header>
+            <h1>Moment 5</h1>
+        </header>
+        <main>
+            <div id="main">
+                <h2>Kurser jag läst</h2>
+                <i>Kursnamn (Kurskod), Progression, Kursplan </i>
+                <ul id="courses">
+
+                </ul>
+                <h2>Lägg till kurs</h2>
+                <div>
+                    <form action="" method="POST" id="courseForm">
+                        <label for="name">Kursnamn:</label><br>
+                        <input type="text" name="name" id="name"><br>
+
+                        <label for="code">Kurskod:</label><br>
+                        <input type="text" name="code" id="code"><br>
+
+                        <label for="progression">Progression:</label><br>
+                        <input type="text" name="progression" id="progression"><br>
+
+                        <label for="syllabus">Kursplan:</label><br>
+                        <input type="text" name="syllabus" id="syllabus" maxlength="500"><br>
+                        <input type="button" value="Submit" id="submit">
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright &copy; Maja Afzelius 2023</p>
+        </footer>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
